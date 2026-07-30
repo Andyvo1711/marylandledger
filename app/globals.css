@@ -1,0 +1,146 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #111315;
+  --color-surface: #181a1d;
+  --color-surface-secondary: #202327;
+  --color-border: #2b2d31;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #a8adb4;
+  --color-accent: #d4af37;
+  --color-accent-hover: #e0bd50;
+  --font-headline: var(--font-playfair);
+  --font-body: var(--font-inter);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html {
+  background: var(--color-background);
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text-primary);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-headline), Georgia, serif;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+[tabindex]:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--color-accent);
+  color: #111315;
+}
+
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.prose-article {
+  color: var(--color-text-secondary);
+}
+
+.prose-article p {
+  margin-bottom: 1.5rem;
+  line-height: 1.85;
+  font-size: 1.125rem;
+}
+
+.prose-article h2 {
+  font-family: var(--font-headline), Georgia, serif;
+  font-size: 1.75rem;
+  color: var(--color-text-primary);
+  margin-top: 2.75rem;
+  margin-bottom: 1rem;
+}
+
+.prose-article h3 {
+  font-family: var(--font-headline), Georgia, serif;
+  font-size: 1.375rem;
+  color: var(--color-text-primary);
+  margin-top: 2.25rem;
+  margin-bottom: 0.75rem;
+}
+
+.prose-article ul,
+.prose-article ol {
+  margin: 1.5rem 0;
+  padding-left: 1.5rem;
+  line-height: 1.8;
+}
+
+.prose-article ul {
+  list-style: disc;
+}
+
+.prose-article ol {
+  list-style: decimal;
+}
+
+.prose-article li {
+  margin-bottom: 0.5rem;
+}
+
+.prose-article li::marker {
+  color: var(--color-accent);
+}
+
+.prose-article a {
+  color: var(--color-accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.prose-article a:hover {
+  color: var(--color-accent-hover);
+}
+
+.prose-article strong {
+  color: var(--color-text-primary);
+  font-weight: 600;
+}
+
+.prose-article blockquote {
+  border-left: 2px solid var(--color-accent);
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-family: var(--font-headline), Georgia, serif;
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--color-text-primary);
+}
+
+.prose-article img {
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+
+.prose-article hr {
+  border-color: var(--color-border);
+  margin: 2.5rem 0;
+}
