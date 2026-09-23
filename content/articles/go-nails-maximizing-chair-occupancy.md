@@ -4,7 +4,7 @@ slug: go-nails-maximizing-chair-occupancy
 excerpt: "Go Nails is an ultra-affordable, booking-first platform that helps U.S. nail salons capture 24/7 online bookings, streamline staff scheduling, and protect profit margins, all starting at $24.99."
 category: beauty-wellness
 date: "2026-06-15"
-coverImage: /images/Go-Nails.png
+coverImage: "/images/Go-Nails.png"
 featured: false
 imageCredit: "GO NAILS"
 ---
