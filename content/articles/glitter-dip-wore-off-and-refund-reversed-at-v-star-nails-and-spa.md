@@ -4,7 +4,7 @@ slug: "glitter-dip-wore-off-and-refund-reversed-at-v-star-nails-and-spa"
 excerpt: "A client paid extra for a glitter dip that rubbed off within hours, and a refund offered by her technician was later declined by a manager on the phone. A look at honest product guidance and consistent refund decisions."
 category: "beauty-wellness"
 date: "2026-01-15"
-coverImage: "https://images.pexels.com/photos/7990099/pexels-photo-7990099.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
+image: "https://images.pexels.com/photos/7990099/pexels-photo-7990099.jpeg?auto=compress&cs=tinysrgb&w=1600&h=900&fit=crop"
 featured: false
 imageCredit: "Photo: Pexels"
 ---
